@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+coverage
+registerServiceWorker.js
+index.js
+App.test.js
