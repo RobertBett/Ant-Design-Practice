@@ -4,6 +4,7 @@ import {
 } from 'antd';
 import './App.css';
 import 'antd/dist/antd.css';
+import MenuComponent from './Menu';
 
 const { Content, Header, Footer } = Layout;
 const { Meta } = Card;
@@ -33,6 +34,7 @@ const App = () => (
     </Header>
     <Content style={{ padding: '0 50px', marginTop: 64 }}>
       <div style={{ background: '#fff', padding: 24, minHeight: 380 }}>
+        <MenuComponent />
         <Row>
           <Col span={8}>
             <Card
